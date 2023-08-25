@@ -84,6 +84,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+        'USER': 'admin',
+        'PASSWORD': 'MetaApi@7890',
+        'HOST': 'localhost',
+        'POST': '3000'
     }
 }
 
